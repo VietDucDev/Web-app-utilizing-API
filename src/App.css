@@ -1,0 +1,13 @@
+.help {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.help button {
+  width: 50px;
+  bottom: 20px;
+  right: 20px;
+}
