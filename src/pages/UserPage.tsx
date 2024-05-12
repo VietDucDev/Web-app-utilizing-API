@@ -83,7 +83,7 @@ const UserPage: React.FC = () => {
             {users.map((user) => (
               <tr
                 key={user.id}
-                className="cursor-pointer"
+                style={{ cursor: "pointer" }}
                 onClick={handleClick}
                 data-user-id={user.id}
               >
@@ -104,7 +104,7 @@ const UserPage: React.FC = () => {
         <div className="help">
           <button
             type="button"
-            className="btn btn-primary position-fixed p-0"
+            className="btn btn-primary position-fixed px-4"
             onClick={() => setOpen(true)}
           >
             Help
